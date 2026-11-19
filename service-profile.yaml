@@ -1,0 +1,24 @@
+service:
+  id: "glb-2623"
+  slug: "plaster-skimming-study-web"
+  appName: "Plaster Skimming Study"
+  publisher: "RushLabs"
+  websiteLocales: ["en", "ko"]
+app:
+  androidPackage: "app.mcyj.examprep.glb2623"
+  iosBundleIdentifier: "app.mcyj.examprep.glb2623"
+  appStoreId: "6829822473"
+  interfaceLanguage: "en"
+  publicStatus: "coming-soon"
+  paidDownload: true
+  subscriptionEnabled: false
+web:
+  origin: "https://mcyj.github.io"
+  basePath: "/plaster-skimming-study-web/"
+  supportUrl: "https://mcyj.github.io/plaster-skimming-study-web/#support"
+  privacyUrl: "https://mcyj.github.io/global-exam-support/privacy.html?app=glb-2623"
+operations:
+  deployment: "github-pages-main-root-legacy"
+  analytics: false
+  trackingCookies: false
+  appScreenshotClaims: false
